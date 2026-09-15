@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos curiosos</title>
+
+    <style>
+        body{
+            background-color: white;
+            margin: 0px;
+            font-family: Arial;
+        }
+
+        header{
+            background-color: #07966e;
+            height: 120px;
+            padding-top: 20px;
+        }
+
+        .inicio{
+            color: white;
+            text-decoration: none;
+            background-color: #13bd70;
+            padding: 10px 18px;
+            border-radius: 20px;
+            position: relative;
+            left: 30px;
+            top: 50px;
+        }
+
+        .lineablanca{
+            height: 18px;
+            background-color: white;
+        }
+
+        .franja-titulo{
+            background-color: #f8283e;
+            height: 45px;
+            text-align: center;
+        }
+
+        .franja-titulo h1{
+            margin: 0px;
+            padding-top: 5px;
+        }
+
+        .espacio{
+            height: 18px;
+            background-color: white;
+        }
+
+        main{
+            padding: 0px 20px;
+        }
+
+        .fila{
+            display: flex;
+            gap: 28px;
+            margin-bottom: 30px;
+        }
+
+        .tarjeta{
+            background-color: #b3915a;
+            border-radius: 35px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .tarjeta ul{
+            margin: 0px;
+            padding-left: 18px;
+        }
+
+        .tarjeta li{
+            font-size: 18px;
+            line-height: 1.35;
+        }
+
+        /*Los datos curisos*/
+        .fila1{
+            align-items: flex-start;
+        }
+
+        .columna-izquierda{
+            width: 68%;
+        }
+
+        .fila-tarjetas{
+            display: flex;
+            gap: 28px;
+            margin-bottom: 30px;
+        }
+
+        .fila-tarjetas .tarjeta{
+            flex: 1;
+            min-height: 150px;
+        }
+
+        .imagen-datos{
+            width: 30%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        /*Los mitOos*/
+        .titulo-mitos{
+            text-align: center;
+            font-size: 45px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .mitos-contenido{
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        .imagen-mitos{
+            width: 38%;
+            height: 370px;
+            object-fit: cover;
+        }
+
+        .mitos-derecha{
+            width: 55%;
+        }
+
+        .fila-mitos{
+            display: flex;
+            gap: 28px;
+            margin-bottom: 30px;
+        }
+
+        .fila-mitos .tarjeta{
+            flex: 1;
+            min-height: 150px;
+        }
+
+        .mito3{
+            width: 70%;
+            min-height: 150px;
+            margin-left: auto;
+        }
+
+        /*Decoracion de al finAl*/
+        .franja-roja{
+            height: 15px;
+            background-color: #f8283e;
+        }
+
+        .franja-blanca-final{
+            height: 15px;
+            background-color: white;
+        }
+
+        footer{
+            background-color: #07966e;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+
+        footer p{
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a class="inicio" href="index.html">INICIO</a>
+    </header>
+
+    <div class="lineablanca"></div>
+
+    <div class="franja-titulo">
+        <h1>Datos curiosos</h1>
+    </div>
+
+    <div class="espacio"></div>
+
+    <main>
+        <div class="fila fila1">
+            <div class="columna-izquierda">
+                <div class="fila-tarjetas">
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                El primer Grito oficial: Ocurrió en 1812 en el pueblo de Huichapan, Hidalgo, organizado por Ignacio López Rayón.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                5 de septiembre: Día Internacional de la Mujer Indígena.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                Día Nacional del Maíz: Se celebra cada 29 de septiembre en México para reconocer la importancia de este grano en la cultura y la agricultura del país.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fila-tarjetas">
+
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                El Himno Nacional: Su primera interpretación pública oficial ocurrió un 15 de septiembre de 1854.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                Los colores patrios en la comida: Los tradicionales chiles en nogada fueron creados por monjas agustinas en Puebla para celebrar a Agustín de Iturbide. Tienen los colores del Ejército Trigarante (verde, blanco y rojo).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img class="imagen-datos" src="datos.jpg" alt="Una infografia de MexicO">
+        </div>
+
+        <h1 class="titulo-mitos">Mitos</h1>
+
+        <div class="mitos-contenido">
+            <img class="imagen-mitos" src="mitos.jpg" alt="Un dibujote tremendo">
+
+            <div class="mitos-derecha">
+                <div class="fila-mitos">
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                Hidalgo tocó la campana: Falso. Quien tocó la campana de la iglesia de Dolores fue el campanero del pueblo, José Galván.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tarjeta">
+                        <ul>
+                            <li>
+                                El Pípila existió realmente: Es un mito. Los historiadores no han encontrado pruebas reales de que este personaje haya roto la puerta de la Alhóndiga de Granaditas.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="tarjeta mito3">
+                    <ul>
+                        <li>
+                            El Grito fue el 15 de septiembre: Falso. El llamado a las armas del cura Miguel Hidalgo ocurrió en la madrugada del 16 de septiembre de 1810. La fiesta se pasó al 15 por una tradición y por el cumpleaños del expresidente Porfirio Díaz.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="franja-roja"></div>
+    <div class="franja-blanca-final"></div>
+
+    <footer>
+        <p>Granados Aguirre Evelyn Ivonne</p>
+        <p>0551</p>
+        <p>5°I</p>
+    </footer>
+
+</body>
+</html>
