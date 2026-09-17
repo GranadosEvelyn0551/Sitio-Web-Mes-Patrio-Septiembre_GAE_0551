@@ -4,32 +4,37 @@
     <title>septiembre festivo</title>
 
     <style>
+        /* Configura toda la pagina para que sea toda bonitA*/
         body{
-            background-color: white;
+            background-color: white; /* blAnco */
             margin: 0px;
             font-family: Arial;
         }
 
+        /* Crea la parte superior */
         header{
-            background-color: #07966e;
+            background-color: #07966e; /* colors verdE */
             padding: 15px 0;
             display: flex;
             justify-content: center;
         }
 
+        /* Tamaño de la bandera porque sino ocupa todO*/
         header img{
             height: 118px;
             width: 204px;
         }
 
+        /* Crea la barra de navegacion */
         nav{
             height: 50px;
-            background-color: #f8283e;
+            background-color: #f8283e; /* rojO */
         }
 
+        /* Acomoda los botones del menu*/
         nav ul{
             list-style-type: none;
-            background-color: white;
+            background-color: white; /* blAnco obvio*/
             margin: 0px;
             padding: 0px;
             display: flex;
@@ -40,35 +45,40 @@
             flex-wrap: wrap;
         }
 
+        /* Da estilo a los enlaces */
         nav li a{
-            color: white;
+            color: white; /* blAnco */
             font-weight: bold;
-            text-decoration: none;
-            background-color: #623922;
+            text-decoration: none; /*para que no aparezca como lista*/
+            background-color: #623922; /* color carton */
             padding: 13px 20px;
             border-radius: 20px;
             display: inline-block;
 
         }
 
+        /* Cambia el color y posicion del boton Inicio para que sea unico y detergente*/
         nav li a.inicio {
-            background-color: #13bd70;
+            background-color: #13bd70; /* colors verdote */
             position: relative;
             top: -40px;
         }
 
+        /* Crea el espacio principal de la pagina*/
         main{
             height: 302px;
             padding: 52px 0px 0px 37px;
             position: relative;
         }
 
+        /* Da tamaño y espacio al titulo */
         h1{
             font-size: 37px;
             margin: 0px 0px 15px 0px;
         }
 
 
+        /* lo mismo de arriba pero al texto */
         p{
             width: 545px;
             font-size: 14px;
@@ -76,6 +86,7 @@
             margin-top: 2px;
         }
 
+        /* Acomoda la imagen principal */
         main img {
             height: 250px;
             width: 367px;
@@ -84,23 +95,27 @@
             top: 32px;
         }
 
+        /* Crea una franja roja y la acomodA */
         .franja-roja {
             height: 13px;
-            background-color: #f8283e;
+            background-color: #f8283e; /* rojito */
         }
  
+        /* Crea una franja blanca */
         .franja-blanca {
             height: 19px;
-            background-color: white;
+            background-color: white; /* blAnco */
         }
 
+        /* Crea el pie de pagina */
         footer{
             height: 60px;
-            background-color: #07966e;
+            background-color: #07966e; /* colors verdE */
             text-align: center;
             padding-top: 20px;
         }
 
+        /* Acomoda los textos del pie de pagina para que no se vea feito */
         footer p{
             width: auto;
             margin: 0px;
@@ -113,6 +128,7 @@
         <img src="mexico.jpg" alt="Bandera de Mexico">
     </header>
 
+    <!-- Menu de navegacion -->
     <nav>
         <ul>
             <li><a class="inicio" href="index.html">Inicio</a></li>
@@ -122,23 +138,17 @@
         </ul>
     </nav>
 
+    <!-- La info, todo importantE -->
     <main>
-
         <h1>MES DE SEPTIEMBRE</h1>
-
-        <p>
-            Septiembre conocido en México como el <b>"Mes Patrio"</b>
-            porque se conmemora el aniversario del
-            <b>inicio de la Independencia</b> y otros hechos históricos
-            muy importantes para el país. Durante estas semanas,
-            las calles, casas y edificios públicos se adornan con
-            los colores de la bandera: <b>verde, blanco y rojo.</b>
-        </p>
-
+        <p>Septiembre conocido en México como el <b>"Mes Patrio"</b> porque se conmemora el aniversario del
+        <b>inicio de la Independencia</b> y otros hechos históricos muy importantes para el país. Durante estas semanas,
+        las calles, casas y edificios públicos se adornan con los colores de la bandera: <b>verde, blanco y rojo.</b></p>
         <img src="ciudad.jpg" alt="Ciudad de Mexico">
 
     </main>
 
+    <!-- Las franjas decorativAs para la banderota -->
     <div class="franja-roja"></div>
     <div class="franja-blanca"></div>
 
